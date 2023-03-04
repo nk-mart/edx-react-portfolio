@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/edx-react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/edx-react-portfolio/static/js/main.c8e45b7e.js",
+    "main.js": "/edx-react-portfolio/static/js/main.0604e2db.js",
     "index.html": "/edx-react-portfolio/index.html",
     "main.c2cab247.css.map": "/edx-react-portfolio/static/css/main.c2cab247.css.map",
-    "main.c8e45b7e.js.map": "/edx-react-portfolio/static/js/main.c8e45b7e.js.map"
+    "main.0604e2db.js.map": "/edx-react-portfolio/static/js/main.0604e2db.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.c8e45b7e.js"
+    "static/js/main.0604e2db.js"
   ]
 }
