@@ -12,7 +12,7 @@ function App() {
       <div>
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
-        <Routes basenmae="edx-react-portfolio/">
+        <Routes basenmae="/edx-react-portfolio/">
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
           <Route path="/edx-react-portfolio/" element={<Home />} />
