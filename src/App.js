@@ -6,10 +6,11 @@ import About from './components/pages/About';
 import Blog from './components/pages/Blog';
 import Contact from './components/pages/Contact';
 
+
 function App() {
   return (
     <Router>
-      <div>
+      <div >
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
         <Routes basename="/edx-react-portfolio/">
