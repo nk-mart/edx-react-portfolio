@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 
 function NavTabs() {
   return (
-    <ul  className="nav nav-tabs d-flex justify-content-center">
+    <ul  className="nav  d-flex justify-content-center">
       <li className="nav-item">
         <NavLink
           to="/edx-react-portfolio/"
