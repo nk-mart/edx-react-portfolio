@@ -12,7 +12,7 @@ color: "white"
 
 function NavTabs() {
   return (
-    <ul   style={mystyle} className="nav d-flex justify-content-center bg-light bg-opacity-10">
+    <ul    className="nav d-flex justify-content-center bg-light bg-opacity-10">
       <li   className="nav-item fs-3 ">
         <NavLink
           to="/edx-react-portfolio/"

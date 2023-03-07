@@ -1,10 +1,9 @@
 
-body {
-    background: #3C84AB;
-}
+html, body, #root, .App {
+    height: 100%;
+  }
 
-
-
+/* NavBar LI Text */
 li{
    color: #4B5D67;
 }
@@ -12,4 +11,7 @@ li{
 li:hover{
     color: whitesmoke;
 }
+
+
+
 

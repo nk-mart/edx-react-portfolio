@@ -5,12 +5,13 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Blog from './components/pages/Blog';
 import Contact from './components/pages/Contact';
+import './AppStyle.css' 
 
 
 function App() {
   return (
     <Router>
-      <div >
+      <div className='h-100' >
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
         <Routes basename="/edx-react-portfolio/">
