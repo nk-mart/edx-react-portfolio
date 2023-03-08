@@ -55,16 +55,7 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item fs-3">
-        <NavLink
-          to="/edx-react-portfolio/contact/learn"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active text-reset' : 'nav-link text-reset'
-          }
-        >
-          Learn
-        </NavLink>
-      </li>
+    
     </ul>
   );
 }
