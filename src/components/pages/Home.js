@@ -4,14 +4,14 @@ import SocialLinks from "../SocialLinks";
 
 const aabc  = {
 
-  marginTop:"10%"
+  marginTop:"7%"
 }
 
 
 function Home() {
   return (
       <>
-    <div style={aabc} className=" container py-5 bg-info bg-opacity-10 shadow-lg text-center min-vh-50 d-grid aabc">
+    <div style={aabc} className=" container py-5 bg-info bg-opacity-10 shadow-lg text-center d-grid aabc">
 
       <h1 >Hello 
         I'm Nicholas Martin.
