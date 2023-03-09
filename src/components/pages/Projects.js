@@ -1,4 +1,5 @@
 import React from "react";
+import Cards from "./Cards/Cards";
 
 function Projects() {
   return (
@@ -34,27 +35,8 @@ function Projects() {
           </div>
         </div>
       </section> */}
-<div className="card">
-      <div className="img-container">
-        <img alt="" src="https://dummyimage.com/640x360/fff/aaa
-"/>
-      </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> waassd
-          </li>
-          <li>
-            <strong>Occupation:</strong> dsdsd
-          </li>
-          <li>
-            <strong>Address:</strong> dsdsd
-          </li>
-        </ul>
-      </div>
-      <span >𝘅</span>
-    </div>
-  ;
+  
+      <Cards></Cards>
 
 
     </div>
