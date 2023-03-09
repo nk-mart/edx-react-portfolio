@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Blog from './components/pages/Blog';
+import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import SocialLinks from './components/SocialLinks';
 import './AppStyle.css' 
@@ -20,7 +20,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/edx-react-portfolio/" element={<Home />} />
           <Route path="/edx-react-portfolio/about" element={<About />} />
-          <Route path="/edx-react-portfolio/blog" element={<Blog />} />
+          <Route path="/edx-react-portfolio/blog" element={<Projects />} />
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>

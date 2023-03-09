@@ -41,7 +41,7 @@ function NavTabs() {
             isActive ? 'nav-link active text-reset' : 'nav-link text-reset'
           }
         >
-          Blog
+          Projects
         </NavLink>
       </li>
       <li className="nav-item fs-3">
