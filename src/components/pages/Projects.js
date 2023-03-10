@@ -1,5 +1,10 @@
 import React from "react";
 import Cards from "./Cards/Cards";
+import './Project.css'
+
+
+
+
 
 function Projects() {
   return (
@@ -18,26 +23,13 @@ function Projects() {
         non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
 
-
-      {/* <section>
-        <div className="card ">
-          <div className="img-container">
-
-          <img src="https://fastly.picsum.photos/id/76/200/300.jpg?grayscale&hmac=xrdYm3wgKnEMckd163A1D0sHAClPRZvCBedddaxsE6k" alt="" className="cardimg-top" />
-          <div className="cardbody">
-          </div>
-
-          <h5 className="card-title">hehe</h5>
-          <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sunt nam quidem odit maxime, voluptate sint accusantium animi dicta obcaecati repellat quisquam. Dolorem laudantium cumque quaerat, enim sed nesciunt fugiat.
-          </div>
-
-
-          </div>
-        </div>
-      </section> */}
-  
+      <div className="container d-flex cardholder" >
+      <Cards></Cards>
+      <Cards></Cards>
       <Cards></Cards>
 
+      </div>
+    
 
     </div>
   );

@@ -1,0 +1,17 @@
+
+
+
+.cardholder {
+    justify-content: center;
+
+}
+
+
+@media (max-width: 800px) { 
+    .cardholder{
+        width: 75%;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+    }
