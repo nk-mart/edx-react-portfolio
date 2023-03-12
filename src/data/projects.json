@@ -2,8 +2,18 @@
     {
      "id":1,
      "name":"React Protfolio",
-     "about":"abc",
+     "about":"React app used for learning React.",
      "pic":"https://via.placeholder.com/600x400/a17979/4d2626?text=Project1"
 
-    }
+    },
+
+    {
+        "id":2,
+        "name":"React Protfolio2 ",
+        "about":"number2.",
+        "pic":"https://via.placeholder.com/600x400/a17979/4d2626?text=Project1"
+   
+       }
+
+
 ]
