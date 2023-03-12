@@ -1,18 +1,21 @@
 
 import './style.css'
-export default function Cards(){
+
+export default function Cards(props){
+ const project=props.projects
+
+console.log(props.projects[0])
 
    return(
     
     <>
     <div className="card">
         <div className="img-container">
-        <img src="https://via.placeholder.com/600x400/a17979/4d2626?text=Project1
-" alt="" className="img-fluid"/>
+        <img src={project[0].pic} alt="" className="img-fluid"/>
         </div>
         
         <div className="card-body">
-            <h5 className="card-title">Project Name:</h5>
+            <h5 className="card-title">Project: {project[0].name}</h5>
             <div className="card-text">somekind of text</div>
         </div>
 

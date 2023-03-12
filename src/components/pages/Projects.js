@@ -1,12 +1,16 @@
 import React from "react";
 import Cards from "./Cards/Cards";
 import './Project.css'
+import projectData from '../../data/projects.json'
 
 
 
 
 
 function Projects() {
+
+
+  
   return (
     <div>
       <h1>My Work</h1>
@@ -24,10 +28,10 @@ function Projects() {
       </p>
 
       <div className="container d-flex cardholder" >
-      <Cards></Cards>
-      <Cards></Cards>
-      <Cards></Cards>
-
+      <Cards projects={projectData} ></Cards>
+      
+      
+      
       </div>
     
 
