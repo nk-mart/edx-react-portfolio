@@ -5,15 +5,13 @@ import projectData from '../../data/projects.json'
 
 
 
-
-
 function Projects() {
 
 
   
   return (
     <div>
-      <h1>My Work</h1>
+      <h1 className='container text-center mt-5'>My Work</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
         turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.

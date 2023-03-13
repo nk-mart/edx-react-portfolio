@@ -20,9 +20,9 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/edx-react-portfolio/" element={<Home />} />
           <Route path="/edx-react-portfolio/about" element={<About />} />
-          <Route path="/edx-react-portfolio/blog" element={<Projects />} />
+          <Route path="/edx-react-portfolio/projects" element={<Projects />} />
           {/* Define a route that will have descendant routes */}
-          <Route path="contact/*" element={<Contact />} />
+          <Route path="/edx-react-portfolio/contact/" element={<Contact />} />
         </Routes>
       </div>
     </Router>

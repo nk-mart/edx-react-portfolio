@@ -13,7 +13,15 @@
         "about":"number2.",
         "pic":"https://via.placeholder.com/600x400/a17979/4d2626?text=Project1"
    
+       },
+       {
+        "id":23,
+        "name":"React ",
+        "about":"number 4.",
+        "pic":"https://via.placeholder.com/600x400/a17979/4d2626?text=Project1"
+   
        }
+       
 
 
 ]

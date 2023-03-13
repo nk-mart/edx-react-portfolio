@@ -36,7 +36,7 @@ function NavTabs() {
       </li>
       <li className="nav-item fs-3">
         <NavLink
-          to="/edx-react-portfolio/blog"
+          to="/edx-react-portfolio/projects"
           className={({ isActive }) =>
             isActive ? 'nav-link active text-reset' : 'nav-link text-reset'
           }
@@ -47,7 +47,7 @@ function NavTabs() {
       <li className="nav-item fs-3">
         <NavLink
           to="/edx-react-portfolio/contact"
-          end
+          
           className={({ isActive }) =>
             isActive ? 'nav-link active text-reset' : 'nav-link text-reset'
           }
